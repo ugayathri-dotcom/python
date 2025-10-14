@@ -1,0 +1,5 @@
+a=input("Enter a string")
+b=input("Words need to replaced")
+d=input("Enter the new word to replace")
+c=a.replace(f"{b}",f"{d}")
+print(c)
