@@ -1,0 +1,5 @@
+a=input("Enter a string")
+b=input("Enter the starting value to be checked")
+print(a.startswith(b))
+f=input("Enter the Ending value to be checked")
+print(a.endswith(f))
