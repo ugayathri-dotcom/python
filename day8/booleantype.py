@@ -1,6 +1,0 @@
-a=input("Enter a string")
-print(a.isalnum())
-print("Number/Roman",a.isnumeric())
-print("Number",a.isdigit())
-print("Deciamal",a.isdecimal())
-#print(a.center(10,"*"))
