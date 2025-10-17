@@ -1,0 +1,12 @@
+l=()
+l1=list(l)
+n=int(input("Enter no of elements"))
+for i in range(n):
+    val=input("Enter the elements")
+    l1.append(val)
+l=tuple(l1)
+print("Tuble 1 is",l)
+l2=list(l)
+a=input("enter the element to add")
+l2.append(a)
+print(tuple(l2))
