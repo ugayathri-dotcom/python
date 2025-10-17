@@ -1,0 +1,16 @@
+s=set()
+n=int(input("enter the no of elements"))
+for i in range (n):
+    val=input("Enter the value")
+    s.add(val)
+print("Created set1 is:",s)
+s1=set()
+n1=int(input("enter the no of elements"))
+for j in range (n1):
+    val1=input("Enter the value")
+    s1.add(val1)
+print("Created set2 is:",s1)
+s3=s1.difference(s)
+s4=s1.symmetric_difference(s)
+print("Difference between two list",s3)
+print("Symmetric Difference between two list:",s4)
